@@ -11,7 +11,6 @@
   <title>Svetaine</title>
   <?php wp_head(); ?>
 </head>
-
 <body>
     <main>
       <?php
@@ -49,7 +48,6 @@
         </div>
         </div>
       </section>
-
       <section id="ourstory">
         <div class="ourstory">
         <div class="container">
@@ -76,11 +74,9 @@
         $playbutton_background = wp_get_attachment_image_src($playbutton_background, 'full')[0];
       ?>
       <section id="playbutton" class="playbutton" style="background-image: url(<?= $playbutton_background ?>)">
-
         <img><i class="far fa-play-circle"></i></img>
         <p>WATCH OUR STORY</p>
       </section>
-
       <section id="experience" class="experience">
         <?php
         $experienceQuery = new WP_Query( array(
@@ -108,12 +104,10 @@
                 <p><?php the_field( 'experience_description', get_the_ID() ); ?></p>
               </li>
                 <?php endwhile; ?>
-
             </ul>
           </div>
         </div>
       </section>
-
       <?php
         $amazing_team_background = get_field( 'amazing_team_background', 22 );
         $amazing_team_background = wp_get_attachment_image_src($amazing_team_background, 'full')[0];
@@ -150,17 +144,13 @@
                    <p><?= the_field('job_title', get_the_ID()) ?></p>
                 </div>
               </li>
-
             <?php endwhile;endif; ?>
-
             </ul>
-
             <p class="join-us">Become a part of dream team, join us</p>
             <button type="button" name="button">WE ARE HIRING</button>
           </div>
           </div>
         </section>
-
         <section id="our-works" class="our-works">
           <?php
             $ourworksQuery = new WP_Query( array(
@@ -186,9 +176,7 @@
               <li>
                   <img src="<?= $photo_url ?>" alt="" />
               </li>
-
             <?php endwhile;endif; ?>
-
             </ul>
             <button class="our-works-button-bottom"type="button" name="button">LOAD MORE</button>
           </div>
@@ -209,7 +197,6 @@
         </div>
         </section>
       </body>
-
       <footer>
         <section id="give-us-good-news" class="give-us-good-news">
           <div class="container">
@@ -249,9 +236,7 @@
                 <li>
                     <img src="<?= $photo_url ?>" alt="" />
                 </li>
-
               <?php endwhile;endif; ?>
-
               </ul>
              </div>
             </div>
