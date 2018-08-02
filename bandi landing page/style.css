@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Header */
+#first-section{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/header/Rectangle.png');
+  /* background-image: url("img/header/Rectangle.png"); */
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+}
+.header ul li{
+  display: inline;
+  padding-left: 20px;
+}
+.header ul{
+  padding-top: 20px;
+}
+.header img{
+  padding-top: 20px;
+}
+.intro{
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.intro h1{
+  font-weight: normal;
+}
+.intro span{
+  font-weight: bold;
+}
+.creative{
+  color: #0ed691;
+}
+.intro-p-small{
+  font-size: 20px;
+  padding-top: 11px;
+}
+/* Fietures */
+.fietures{
+  background-color: #f4f7f9;
+}
+.fietures h2{
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #0eb493;
+  font-size: 27px;
+}
+.fietures-content{
+  display: flex;
+  justify-content: center;
+}
+.fieture{
+  padding-left: 70px;
+  display: flex;
+  margin-bottom: 120px;
+  width: 400px;
+}
+.fieture-heading{
+  font-weight: bold;
+  font-size: 24px;
+}
+.fieture i{
+  font-size: 30px;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: #0eb493;
+}
+.fieture p{
+  padding-top: 20px;
+}
+/* Works */
+.works h3{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 27px;
+  color: #0eb493;
+}
+.works p{
+  text-align: center;
+  padding-top: 40px;
+}
+.works ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.works li{
+  padding-top: 30px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.works-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+/* Meet-our-team */
+
+.meet-our-team ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 80px;
+}
+.meet-our-team li{
+  padding-left: 30px;
+}
+.meet-our-team p{
+  text-align: center;
+}
+.team-top{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.team-top p{
+  padding-bottom: 20px;
+}
+.team-header{
+  color: #0eb493;
+  font-size: 27px;
+  font-weight: bold;
+}
+.team-content-header{
+  font-weight: bold;
+  padding: 10px 0px 6px 0px;
+  font-size: 20px;
+}
+/* Fun-facts */
+.fun-facts{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/some-fun-facts/somefacts-background.jpg');
+  /* background-image: url("img/some-fun-facts/somefacts-background.jpg"); */
+}
+.fun-facts ul{
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px 110px 0px;
+  list-style-type: none;
+  color: #ffffff;
+}
+.fun-facts li{
+  padding: 0px 45px 0px 45px;
+  text-align: center;
+}
+.fun-facts h4{
+  color: #0eb493;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+.fun-facts-content-header{
+  font-size: 60px;
+}
+.fun-facts i{
+  font-size: 30px;
+  padding: 40px 40px 40px 40px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+/* Lets-Discuss */
+.lets-discuss h5{
+  color: #0eb493;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+.discuss-top-line{
+  font-weight: bold;
+  text-align: center;
+}
+.lets-discuss p{
+  margin-top: 40px;
+}
+.discuss-bottom{
+  display: flex;
+  justify-content: center;
+}
+.discuss-bottom .left{
+  width: 300px;
+}
+.discuss-left-header{
+  font-size: 20px;
+}
+.discuss-bottom .right{
+  margin-left: 40px;
+}
+.discuss-bottom .right p{
+  font-weight: bold;
+  font-size: 20px;
+}
+.discuss-bottom form{
+  width: 1000px;
+}
+.discuss-bottom input{
+  width: 100%;
+  margin: 40px 0px 0px 0px;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+.discuss-bottom{
+  padding-bottom: 80px;
+}
+/* Footer */
+.footer{
+  background-color: #1ea78d;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.footer .summary{
+  width: 300px;
+  padding: 90px 45px 90px 45px;
+}
+.summary img{
+  padding-bottom: 30px;
+}
+.subscribe p{
+  width: 300px;
+}
+.subscribe{
+  padding: 90px 45px 90px 45px;
+}
+.explore{
+  padding: 90px 45px 90px 45px;
+  width: 300px;
+}
+.reserved{
+  padding: 90px 45px 90px 45px;
+}
+.reserved span{
+  color: #000000;
+}
+.reserved-bottom{
+  padding-top: 50px;
+}
+.footer-heading{
+  padding-bottom: 40px;
+}
+/* Media quaries */
+@media only screen and (max-width: 1440px) {
+    .works-grid img{
+      width: 230px;
+      height: 230px;
+    }
+    .works-grid{
+      width: 1300px;
+    }
+}
